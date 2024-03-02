@@ -1,0 +1,15 @@
+# hyperparameters
+method = 'dopri5' 
+sequence_length = 75
+batch_size = 16 
+learning_rate = 1e-3
+num_epochs = 5000
+test_freq = 10
+time_step = 1 
+
+# power spectrum: 0.31
+
+# loss: 0.2, noisy (jumps up to 0.8), initially very high (around 10)
+	cf. /Users/kairothe/Documents/Projects/DSML/NeuralODE_DSR/other/Loss_of_NeuralODEFunc_5000epochs_75sequencelength.png
+
+# trajectory: probably 8-like limit cycle
